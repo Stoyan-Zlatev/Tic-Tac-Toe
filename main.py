@@ -2,7 +2,7 @@ import pygame as pg
 import sys
 from random import randint
 
-WIN_SIZE = 900
+WIN_SIZE = 600
 CELL_SIZE = WIN_SIZE // 3
 INF = float('inf')
 vec2 = pg.math.Vector2
