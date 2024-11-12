@@ -100,6 +100,7 @@ For Linux users, we’ve created a `run_game.sh` script to make it easy to start
 
 Here is an overview of the main files and folders in the project:
 
+```plaintext
 .
 ├── src/                     # Source code for the game
 │   ├── ai.py                # AI logic for computer opponent
@@ -116,7 +117,7 @@ Here is an overview of the main files and folders in the project:
 ├── README.md                # Project README file
 ├── LICENSE                  # Project license
 └── requirements.txt         # Python dependencies
-
+```
 
 ## Files and Components
 
