@@ -17,7 +17,7 @@ RUN apt-get update && \
 COPY . /app
 
 # Install the Python dependencies
-RUN pip install --no-cache-dir pygame
+RUN pip install --no-cache-dir requirements.txt
 
 # Set the command to run the game
 CMD ["python", "main.py"]
