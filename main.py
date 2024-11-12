@@ -1,8 +1,12 @@
 # main.py
 
 import pygame as pg
+import os
 import sys
 from game_logic import TicTacToe
+
+os.environ['SDL_AUDIODRIVER'] = 'dsp'  # Set a dummy audio driver to suppress ALSA errors
+
 
 WIN_SIZE = 600
 
