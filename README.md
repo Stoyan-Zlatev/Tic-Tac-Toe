@@ -100,16 +100,23 @@ For Linux users, we’ve created a `run_game.sh` script to make it easy to start
 
 Here is an overview of the main files and folders in the project:
 
-```plaintext
-├── ai.py              # AI logic for computer opponent
-├── assets/            # Directory for images (X, O, field background)
-├── Dockerfile         # Dockerfile to create Docker container
-├── game_logic.py      # Game logic and Pygame interface handling
-├── main.py            # Entry point for the game
-├── README.md          # Project README
-├── requirements.txt   # Python dependencies
-└── run_game.sh        # Script to run the game on Linux with Docker
-```
+.
+├── src/                     # Source code for the game
+│   ├── ai.py                # AI logic for computer opponent
+│   ├── game_logic.py        # Game logic and Pygame interface handling
+│   └── main.py              # Entry point for the game
+├── assets/                  # Assets like images and sounds
+│   └── images/              # Folder specifically for images
+│       ├── field.png
+│       ├── x.png
+│       └── o.png
+├── docker/                  # Docker-related files
+│   ├── Dockerfile           # Dockerfile for the project
+│   └── run_game.sh          # Script for running the game in Docker
+├── README.md                # Project README file
+├── LICENSE                  # Project license
+└── requirements.txt         # Python dependencies
+
 
 ## Files and Components
 
