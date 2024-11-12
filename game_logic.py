@@ -104,7 +104,7 @@ class TicTacToe:
                     self.switch_player()
         else:
             # AI player's turn
-            pg.time.wait(500)  # small delay for better experience
+            pg.time.wait(50)  # small delay for better experience
             move = self.AI.get_best_move(self.difficulty)
             if move:
                 self.make_move(move, self.current_player)
