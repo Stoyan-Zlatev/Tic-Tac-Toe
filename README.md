@@ -62,7 +62,7 @@ For Linux users, we’ve created a `run_game.sh` script to make it easy to start
      - You’ll need an X11 server (XQuartz on macOS, VcXsrv on Windows).
      - Start the X11 server and run the following command:
        ```bash
-       DISPLAY=host.docker.internal:0 docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix myusername/tic-tac-toe-game
+       DISPLAY=host.docker.internal:0 docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix szlatev/tic-tac-toe-game
        ```
 
 > **Note**: For macOS and Windows users, it may be easier to install Python and Pygame directly rather than running the game in Docker, due to the complexity of setting up X11 forwarding.
